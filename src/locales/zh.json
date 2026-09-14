@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "首页",
+    "pricing": "价格",
+    "privacy": "隐私政策",
+    "contact": "联系我们",
+    "search": "搜索..."
+  },
+
+  "hero": {
+    "title": "明智选择，提前检查。BEST CARFAX — 您的车辆历史记录。",
+    "vinPlaceholder": "输入 VIN",
+    "search": "搜索",
+    "vinHelp": "在哪里可以找到车辆识别号码（VIN）？"
+  },
+
+  "report": {
+    "title": "购买二手车之前，只需说：",
+    "highlight": "给我看看 BEST CARFAX",
+    "description": "看看我们的车辆历史报告可以为您提供哪些信息。",
+    "button": "给我看看 BEST CARFAX"
+  },
+
+  "vehicleChecks": {
+    "title": "我们会检查每辆车是否存在以下记录：",
+    "damage": "损坏或事故",
+    "mileage": "里程篡改",
+    "thefts": "盗窃记录",
+    "taxi": "出租车或租赁车辆使用记录",
+    "maintenance": "维修和检查",
+    "import": "进口信息",
+    "ownership": "所有权变更",
+    "recalls": "制造商未完成的召回"
+  },
+
+  "howWeHelp": {
+    "title": "我们如何帮助您找到最好的车辆",
+    "description": "THE BEST CARFAX 收集来自20个欧洲国家以及美国和加拿大数百万辆二手车的历史信息。我们可以为数据库中的每辆车创建车辆历史记录并提供给您。这些信息可以帮助您检查销售数据，避免昂贵的后续费用，并协商公平的购买价格。"
+  },
+
+  "special": {
+    "title": "我们的特别之处",
+    "database": "最大的国际车辆历史数据库"
+  },
+
+  "testimonials": {
+    "title": "客户评价"
+  },
+
+  "pricing": {
+    "label": "车辆历史报告",
+    "title": "小额投资，让您更加放心",
+    "description": "选择您的套餐，通过一次性付款直接访问我们的车辆历史报告。没有后续费用。",
+    "delivery": "交付时间",
+    "features": "主要功能",
+    "buy": "立即购买",
+    "popular": "最受欢迎",
+    "credit": "套餐有效期",
+    "years": "4年",
+    "support": "支持",
+    "questions": "有任何问题吗？"
+  },
+
+  "contact": {
+    "label": "联系我们",
+    "title": "联系我们",
+    "heading": "很高兴收到您的消息",
+    "description": "为了确保您的问题得到高效处理，请向我们提供一些详细信息。这将帮助我们为您联系最合适的团队成员。",
+    "name": "姓名",
+    "email": "电子邮箱",
+    "phone": "电话",
+    "message": "留言",
+    "send": "发送消息",
+    "success": "消息发送成功！",
+    "thankYou": "感谢您联系 BEST CARFAX。"
+  },
+
+  "footer": {
+    "description": "THE Best CARFAX 是一家国际车辆历史记录提供商，致力于让二手车市场更加透明，让全球道路更加安全。",
+    "home": "首页",
+    "pricing": "价格",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "security": "采用最高级别的加密标准，确保安全浏览。",
+    "copyright": "Copyright © 2005, BEST CARFAX",
+    "tagline": "让车辆历史更加透明。"
+  }
+}

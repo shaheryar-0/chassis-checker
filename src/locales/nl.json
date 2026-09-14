@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "Home",
+    "pricing": "Prijzen",
+    "privacy": "Privacybeleid",
+    "contact": "Contact",
+    "search": "Zoeken..."
+  },
+
+  "hero": {
+    "title": "Wees slim en controleer vooraf. De BEST CARFAX — Uw voertuiggeschiedenis.",
+    "vinPlaceholder": "Voer VIN in",
+    "search": "Zoeken",
+    "vinHelp": "Waar kan ik het voertuigidentificatienummer (VIN) vinden?"
+  },
+
+  "report": {
+    "title": "Zeg dit voordat u een gebruikte auto koopt:",
+    "highlight": "Laat me de BEST CARFAX zien",
+    "description": "Bekijk dit voorbeeld van de informatie die wij kunnen aanbieden in onze voertuiggeschiedenisrapporten.",
+    "button": "Laat me de BEST CARFAX zien"
+  },
+
+  "vehicleChecks": {
+    "title": "Wij controleren elk voertuig op meldingen van:",
+    "damage": "Schade of ongevallen",
+    "mileage": "Manipulatie van de kilometerstand",
+    "thefts": "Diefstal",
+    "taxi": "Gebruik als taxi of huurauto",
+    "maintenance": "Onderhoud en inspecties",
+    "import": "Importinformatie",
+    "ownership": "Eigendomsoverdracht",
+    "recalls": "Openstaande terugroepacties van de fabrikant"
+  },
+
+  "howWeHelp": {
+    "title": "Hoe wij u helpen de beste auto te vinden",
+    "description": "Bij THE BEST CARFAX verzamelen we gegevens over de geschiedenis van miljoenen gebruikte auto's uit 20 Europese landen, evenals de VS en Canada. Vervolgens kunnen we voor elke auto in onze database een voertuiggeschiedenis maken en deze aan u beschikbaar stellen. De informatie helpt u verkoopgegevens te controleren, dure vervolgkosten te voorkomen en een eerlijke aankoopprijs te onderhandelen."
+  },
+
+  "special": {
+    "title": "Wat ons bijzonder maakt",
+    "database": "De grootste internationale database voor voertuiggeschiedenissen"
+  },
+
+  "testimonials": {
+    "title": "Wat onze klanten zeggen"
+  },
+
+  "pricing": {
+    "label": "Voertuiggeschiedenisrapporten",
+    "title": "Krijg meer vertrouwen met een kleine investering",
+    "description": "Kies uw pakket en krijg direct toegang tot onze voertuiggeschiedenisrapporten met een eenmalige betaling. Er zijn geen extra kosten.",
+    "delivery": "Levertijd",
+    "features": "Belangrijkste functies",
+    "buy": "Nu kopen",
+    "popular": "Meest populair",
+    "credit": "Pakket tegoed geldig gedurende",
+    "years": "4 jaar",
+    "support": "Ondersteuning",
+    "questions": "Heeft u vragen?"
+  },
+
+  "contact": {
+    "label": "Contact",
+    "title": "Contact",
+    "heading": "We horen graag van u",
+    "description": "Om ervoor te zorgen dat uw vraag efficiënt wordt behandeld, vragen wij u enkele details met ons te delen. Zo kunnen we u verbinden met het meest geschikte lid van ons team.",
+    "name": "Naam",
+    "email": "E-mail",
+    "phone": "Telefoon",
+    "message": "Bericht",
+    "send": "Bericht verzenden",
+    "success": "Bericht succesvol verzonden!",
+    "thankYou": "Bedankt dat u contact heeft opgenomen met BEST CARFAX."
+  },
+
+  "footer": {
+    "description": "THE Best CARFAX is een internationale aanbieder van voertuiggeschiedenissen met als doel de markt voor gebruikte auto's transparanter en onze wegen wereldwijd veiliger te maken.",
+    "home": "Home",
+    "pricing": "Prijzen",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "security": "Veilig surfen dankzij de hoogste versleutelingsstandaarden.",
+    "copyright": "Copyright © 2005, BEST CARFAX",
+    "tagline": "Voertuiggeschiedenis transparant gemaakt."
+  }
+}

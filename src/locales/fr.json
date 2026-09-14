@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "privacy": "Politique de confidentialité",
+    "contact": "Contact",
+    "search": "Rechercher..."
+  },
+
+  "hero": {
+    "title": "Soyez intelligent et vérifiez à l'avance. Le BEST CARFAX — L'historique de votre véhicule.",
+    "vinPlaceholder": "Entrez le VIN",
+    "search": "Rechercher",
+    "vinHelp": "Où puis-je trouver le numéro d'identification du véhicule (VIN) ?"
+  },
+
+  "report": {
+    "title": "Avant d'acheter un véhicule d'occasion, dites simplement :",
+    "highlight": "Montrez-moi le BEST CARFAX",
+    "description": "Découvrez cet exemple des informations que nous pouvons fournir dans nos rapports d'historique de véhicule.",
+    "button": "Montrez-moi le BEST CARFAX"
+  },
+
+  "vehicleChecks": {
+    "title": "Nous vérifions chaque véhicule pour détecter les rapports concernant :",
+    "damage": "Dommages ou accidents",
+    "mileage": "Manipulation du kilométrage",
+    "thefts": "Vols",
+    "taxi": "Utilisation comme taxi ou voiture de location",
+    "maintenance": "Entretien et inspections",
+    "import": "Informations d'importation",
+    "ownership": "Changement de propriétaire",
+    "recalls": "Rappels ouverts du fabricant"
+  },
+
+  "howWeHelp": {
+    "title": "Comment nous vous aidons à trouver le meilleur véhicule",
+    "description": "Chez THE BEST CARFAX, nous recueillons des informations sur l'historique de millions de véhicules d'occasion provenant de 20 pays européens, ainsi que des États-Unis et du Canada. Nous pouvons créer un historique pour chaque véhicule de notre base de données et le mettre à votre disposition. Ces informations vous aident à vérifier les données de vente, à éviter les coûts futurs et à négocier un prix d'achat équitable."
+  },
+
+  "special": {
+    "title": "Ce qui nous rend uniques",
+    "database": "La plus grande base de données internationale d'historiques de véhicules"
+  },
+
+  "testimonials": {
+    "title": "Ce que disent nos clients"
+  },
+
+  "pricing": {
+    "label": "Rapports d'historique de véhicule",
+    "title": "Ayez plus confiance grâce à un petit investissement",
+    "description": "Choisissez votre forfait et obtenez un accès direct à nos rapports d'historique de véhicule avec un paiement unique. Aucun coût supplémentaire.",
+    "delivery": "Délai de livraison",
+    "features": "Fonctionnalités principales",
+    "buy": "Acheter maintenant",
+    "popular": "Le plus populaire",
+    "credit": "Crédit du forfait valable pendant",
+    "years": "4 ans",
+    "support": "Assistance",
+    "questions": "Des questions ?"
+  },
+
+  "contact": {
+    "label": "Contact",
+    "title": "Contact",
+    "heading": "Nous sommes heureux de vous entendre",
+    "description": "Pour garantir que votre demande soit traitée efficacement, veuillez nous fournir quelques détails. Cela nous permettra de vous mettre en relation avec le membre le plus approprié de notre équipe.",
+    "name": "Nom",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "message": "Message",
+    "send": "Envoyer le message",
+    "success": "Message envoyé avec succès !",
+    "thankYou": "Merci d'avoir contacté BEST CARFAX."
+  },
+
+  "footer": {
+    "description": "THE Best CARFAX est un fournisseur international d'historiques de véhicules dont l'objectif est de rendre le marché des voitures d'occasion plus transparent et nos routes plus sûres dans le monde entier.",
+    "home": "Accueil",
+    "pricing": "Tarifs",
+    "contact": "Contact",
+    "privacy": "Politique de confidentialité",
+    "security": "Navigation sécurisée grâce aux normes de chiffrement les plus élevées.",
+    "copyright": "Copyright © 2005, BEST CARFAX",
+    "tagline": "L'historique du véhicule en toute transparence."
+  }
+}

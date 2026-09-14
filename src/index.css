@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #050816;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.checkout-input {
+  width: 100%;
+  background: #0f172a;
+  border: 1px solid #334155;
+  color: white;
+  border-radius: 0.75rem;
+  padding: 0.9rem 1rem;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.checkout-input::placeholder {
+  color: #64748b;
+}
+
+.checkout-input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.12);
+}
+
+.checkout-input:hover {
+  border-color: #475569;
+}
+
+.checkout-input option {
+  background: #0f172a;
+  color: white;
+}

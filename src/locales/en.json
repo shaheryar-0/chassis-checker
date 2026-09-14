@@ -1,0 +1,103 @@
+{
+  "navbar": {
+    "home": "Home",
+    "pricing": "Pricing",
+    "privacy": "Privacy Policy",
+    "contact": "Contact",
+    "search": "Search..."
+  },
+
+  "hero": {
+    "title": "Be smart and check in advance. The BEST CARFAX — Your Vehicle History.",
+    "vinPlaceholder": "Enter VIN",
+    "search": "Search",
+    "vinHelp": "Where can I find the Vehicle Identification Number (VIN)?"
+  },
+
+  "report": {
+    "title": "Before buying a used vehicle just say:",
+    "highlight": "Show me the BEST CARFAX",
+    "description": "Take a look at this example of what information we can offer in our Vehicle History Reports.",
+    "button": "Show me the BEST CARFAX"
+  },
+
+  "vehicleChecks": {
+    "title": "We check every vehicle for any reports of:",
+    "damage": "Damage or accidents",
+    "mileage": "Mileage manipulations",
+    "thefts": "Thefts",
+    "taxi": "Taxi or rental car use",
+    "maintenance": "Maintenance and inspections",
+    "import": "Import information",
+    "ownership": "Change of ownership",
+    "recalls": "Open recalls of the manufacturer"
+  },
+
+  "howWeHelp": {
+    "title": "How we help you find the best vehicle",
+    "description": "At The BEST CARFAX, we collect events from the lives of millions of used cars from 20 European countries, as well as the USA and Canada. We can then create a vehicle history for every car in our database and make it available to you. The information helps you to check sales data, avoid expensive follow-up costs and negotiate a fair purchase price."
+  },
+
+  "special": {
+    "title": "What makes us special",
+    "database": "The largest international database for vehicle histories"
+  },
+
+  "testimonials": {
+    "title": "What our customers say",
+  "david": {
+    "name": "David M",
+    "text": "Excellent service and very helpful information. The report made it much easier to understand the car’s accident, ownership, and service history."
+  },
+  "james": {
+    "name": "James R",
+    "text": "Great experience! The vehicle history report was easy to understand and helped me make a more confident decision before buying my car."
+  },
+  "michael": {
+    "name": "Michael T",
+    "text": "Very quick and professional service. I wanted to check a used vehicle’s history before purchasing, and the report gave me useful information about its past."
+  }
+    
+  },
+
+  "pricing": {
+    "label": "Vehicle History Reports",
+    "title": "You can have more confidence by making a small investment",
+    "description": "Choose your package and get direct access to our Vehicle History Reports with a one-time payment. No follow-up costs are involved.",
+    "delivery": "Delivery Duration",
+    "features": "Top features",
+    "buy": "Buy Now",
+    "popular": "Most Popular",
+    "credit": "Package credit valid for",
+    "years": "4 years",
+    "support": "Support",
+    "questions": "Any questions?"
+  },
+
+  "contact": {
+    "label": "Contact",
+    "title": "Contact",
+    "heading": "It's great to hear from you",
+    "description": "To ensure your query is handled efficiently, kindly share some specifics with us. This information will enable us to connect you with the most suitable member of our team.",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message delivered successfully!",
+    "thankYou": "Thank you for contacting BEST CARFAX."
+  },
+
+  "footer": {
+    "description": "THE Best CARFAX is an international provider of vehicle histories with the goal of making the used car market more transparent and our roads safer worldwide.",
+    "home": "Home",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "security": "Safe surfing through highest encryption standards.",
+    "copyright": "Copyright © 2005, BEST CARFAX",
+    "tagline": "Vehicle history made transparent."
+  }
+ 
+}
+

@@ -1,0 +1,88 @@
+{
+  "navbar": {
+    "home": "Startseite",
+    "pricing": "Preise",
+    "privacy": "Datenschutz",
+    "contact": "Kontakt",
+    "search": "Suchen..."
+  },
+
+  "hero": {
+    "title": "Seien Sie clever und prüfen Sie im Voraus. Der BEST CARFAX – Ihre Fahrzeughistorie.",
+    "vinPlaceholder": "VIN eingeben",
+    "search": "Suchen",
+    "vinHelp": "Wo finde ich die Fahrzeugidentifikationsnummer (VIN)?"
+  },
+
+  "report": {
+    "title": "Vor dem Kauf eines Gebrauchtwagens sagen Sie einfach:",
+    "highlight": "Zeig mir den BEST CARFAX",
+    "description": "Sehen Sie sich dieses Beispiel an, welche Informationen wir in unseren Fahrzeughistorien anbieten können.",
+    "button": "BEST CARFAX anzeigen"
+  },
+
+  "vehicleChecks": {
+    "title": "Wir prüfen jedes Fahrzeug auf Berichte über:",
+    "damage": "Schäden oder Unfälle",
+    "mileage": "Manipulationen am Kilometerstand",
+    "thefts": "Diebstähle",
+    "taxi": "Taxi- oder Mietwagennutzung",
+    "maintenance": "Wartung und Inspektionen",
+    "import": "Importinformationen",
+    "ownership": "Halterwechsel",
+    "recalls": "Offene Rückrufe des Herstellers"
+  },
+
+  "howWeHelp": {
+    "title": "Wie wir Ihnen helfen, das beste Fahrzeug zu finden",
+    "description": "Bei THE BEST CARFAX sammeln wir Informationen über die Historie von Millionen gebrauchter Fahrzeuge aus 20 europäischen Ländern sowie den USA und Kanada. Wir können für jedes Fahrzeug in unserer Datenbank eine Fahrzeughistorie erstellen und Ihnen zur Verfügung stellen. Die Informationen helfen Ihnen, Verkaufsdaten zu prüfen, Folgekosten zu vermeiden und einen fairen Kaufpreis auszuhandeln."
+  },
+
+  "special": {
+    "title": "Was uns besonders macht",
+    "database": "Die größte internationale Datenbank für Fahrzeughistorien"
+  },
+
+  "testimonials": {
+    "title": "Was unsere Kunden sagen"
+  },
+
+  "pricing": {
+    "label": "Fahrzeughistorienberichte",
+    "title": "Mehr Sicherheit durch eine kleine Investition",
+    "description": "Wählen Sie Ihr Paket und erhalten Sie direkten Zugang zu unseren Fahrzeughistorienberichten mit einer einmaligen Zahlung. Es fallen keine weiteren Kosten an.",
+    "delivery": "Lieferzeit",
+    "features": "Top-Funktionen",
+    "buy": "Jetzt kaufen",
+    "popular": "Am beliebtesten",
+    "credit": "Paketguthaben gültig für",
+    "years": "4 Jahre",
+    "support": "Support",
+    "questions": "Haben Sie Fragen?"
+  },
+
+  "contact": {
+    "label": "Kontakt",
+    "title": "Kontakt",
+    "heading": "Wir freuen uns, von Ihnen zu hören",
+    "description": "Damit Ihre Anfrage effizient bearbeitet werden kann, teilen Sie uns bitte einige Details mit. So können wir Sie mit dem passenden Mitglied unseres Teams verbinden.",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "send": "Nachricht senden",
+    "success": "Nachricht erfolgreich zugestellt!",
+    "thankYou": "Vielen Dank für Ihre Kontaktaufnahme mit BEST CARFAX."
+  },
+
+  "footer": {
+    "description": "THE Best CARFAX ist ein internationaler Anbieter von Fahrzeughistorien mit dem Ziel, den Gebrauchtwagenmarkt transparenter und unsere Straßen weltweit sicherer zu machen.",
+    "home": "Startseite",
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "privacy": "Datenschutz",
+    "security": "Sicheres Surfen durch höchste Verschlüsselungsstandards.",
+    "copyright": "Copyright © 2005, BEST CARFAX",
+    "tagline": "Fahrzeughistorie transparent gemacht."
+  }
+}
