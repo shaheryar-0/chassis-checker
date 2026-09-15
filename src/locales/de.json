@@ -8,7 +8,7 @@
   },
 
   "hero": {
-    "title": "Seien Sie clever und prüfen Sie im Voraus. Der BEST CARFAX – Ihre Fahrzeughistorie.",
+    "title": "Seien Sie clever und prüfen Sie im Voraus. Der BEST AUTO VIN CHECK – Ihre Fahrzeughistorie.",
     "vinPlaceholder": "VIN eingeben",
     "search": "Suchen",
     "vinHelp": "Wo finde ich die Fahrzeugidentifikationsnummer (VIN)?"
@@ -16,9 +16,9 @@
 
   "report": {
     "title": "Vor dem Kauf eines Gebrauchtwagens sagen Sie einfach:",
-    "highlight": "Zeig mir den BEST CARFAX",
+    "highlight": "Zeig mir den BEST AUTO VIN CHECK",
     "description": "Sehen Sie sich dieses Beispiel an, welche Informationen wir in unseren Fahrzeughistorien anbieten können.",
-    "button": "BEST CARFAX anzeigen"
+    "button": "BEST AUTO VIN CHECK anzeigen"
   },
 
   "vehicleChecks": {
@@ -35,7 +35,7 @@
 
   "howWeHelp": {
     "title": "Wie wir Ihnen helfen, das beste Fahrzeug zu finden",
-    "description": "Bei THE BEST CARFAX sammeln wir Informationen über die Historie von Millionen gebrauchter Fahrzeuge aus 20 europäischen Ländern sowie den USA und Kanada. Wir können für jedes Fahrzeug in unserer Datenbank eine Fahrzeughistorie erstellen und Ihnen zur Verfügung stellen. Die Informationen helfen Ihnen, Verkaufsdaten zu prüfen, Folgekosten zu vermeiden und einen fairen Kaufpreis auszuhandeln."
+    "description": "Bei THE BEST AUTO VIN CHECK sammeln wir Informationen über die Historie von Millionen gebrauchter Fahrzeuge aus 20 europäischen Ländern sowie den USA und Kanada. Wir können für jedes Fahrzeug in unserer Datenbank eine Fahrzeughistorie erstellen und Ihnen zur Verfügung stellen. Die Informationen helfen Ihnen, Verkaufsdaten zu prüfen, Folgekosten zu vermeiden und einen fairen Kaufpreis auszuhandeln."
   },
 
   "special": {
@@ -72,17 +72,17 @@
     "message": "Nachricht",
     "send": "Nachricht senden",
     "success": "Nachricht erfolgreich zugestellt!",
-    "thankYou": "Vielen Dank für Ihre Kontaktaufnahme mit BEST CARFAX."
+    "thankYou": "Vielen Dank für Ihre Kontaktaufnahme mit BEST AUTO VIN CHECK."
   },
 
   "footer": {
-    "description": "THE Best CARFAX ist ein internationaler Anbieter von Fahrzeughistorien mit dem Ziel, den Gebrauchtwagenmarkt transparenter und unsere Straßen weltweit sicherer zu machen.",
+    "description": "THE Best AUTO VIN CHECK ist ein internationaler Anbieter von Fahrzeughistorien mit dem Ziel, den Gebrauchtwagenmarkt transparenter und unsere Straßen weltweit sicherer zu machen.",
     "home": "Startseite",
     "pricing": "Preise",
     "contact": "Kontakt",
     "privacy": "Datenschutz",
     "security": "Sicheres Surfen durch höchste Verschlüsselungsstandards.",
-    "copyright": "Copyright © 2005, BEST CARFAX",
+    "copyright": "Copyright © 2005, BEST AUTO VIN CHECK",
     "tagline": "Fahrzeughistorie transparent gemacht."
   }
 }

@@ -56,7 +56,7 @@ const packages = [
 
 const faqs = [
   {
-    question: "What does BEST CARFAX cost?",
+    question: "What does BEST AUTO VIN CHECK cost?",
     answer: (
       <>
         Currently we offer 3 packages to choose from:
@@ -70,19 +70,19 @@ const faqs = [
     ),
   },
   {
-    question: "What does the BEST CARFAX money back guarantee mean?",
+    question: "What does the BEST AUTO VIN CHECK money back guarantee mean?",
     answer:
       "Our money back guarantee is designed to provide additional confidence when purchasing a vehicle history report. Please contact our support team for the applicable terms and conditions.",
   },
   {
     question:
-      "How long can I access a purchased BEST CARFAX used Vehicle history?",
+      "How long can I access a purchased BEST AUTO VIN CHECK used Vehicle history?",
     answer:
       "Your purchased package credit remains valid for 4 years, giving you plenty of time to use your purchased vehicle history service.",
   },
   {
     question:
-      "How long can I access a purchased BEST CARFAX vehicle history report?",
+      "How long can I access a purchased BEST AUTO VIN CHECK vehicle history report?",
     answer:
       "Your purchased vehicle history report can be accessed according to the package terms. Package credits are valid for 4 years.",
   },
@@ -278,13 +278,13 @@ function Pricing() {
       </section>
 
       {/* =======================
-          BEST CARFAX TAGLINE
+          BEST AUTO VIN CHECK TAGLINE
       ======================== */}
       <section className="border-y border-slate-800 bg-slate-950/40">
         <div className="max-w-5xl mx-auto px-5 sm:px-6 py-14 sm:py-16 text-center">
 
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold">
-            THE BEST CARFAX
+            THE BEST AUTO VIN CHECK
             <span className="text-blue-500">
               {" "}– fast, secure, stress-free
             </span>

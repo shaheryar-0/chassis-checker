@@ -8,7 +8,7 @@
   },
 
   "hero": {
-    "title": "明智选择，提前检查。BEST CARFAX — 您的车辆历史记录。",
+    "title": "明智选择，提前检查。BEST AUTO VIN CHECK — 您的车辆历史记录。",
     "vinPlaceholder": "输入 VIN",
     "search": "搜索",
     "vinHelp": "在哪里可以找到车辆识别号码（VIN）？"
@@ -16,9 +16,9 @@
 
   "report": {
     "title": "购买二手车之前，只需说：",
-    "highlight": "给我看看 BEST CARFAX",
+    "highlight": "给我看看 BEST AUTO VIN CHECK",
     "description": "看看我们的车辆历史报告可以为您提供哪些信息。",
-    "button": "给我看看 BEST CARFAX"
+    "button": "给我看看 BEST AUTO VIN CHECK"
   },
 
   "vehicleChecks": {
@@ -35,7 +35,7 @@
 
   "howWeHelp": {
     "title": "我们如何帮助您找到最好的车辆",
-    "description": "THE BEST CARFAX 收集来自20个欧洲国家以及美国和加拿大数百万辆二手车的历史信息。我们可以为数据库中的每辆车创建车辆历史记录并提供给您。这些信息可以帮助您检查销售数据，避免昂贵的后续费用，并协商公平的购买价格。"
+    "description": "THE BEST AUTO VIN CHECK 收集来自20个欧洲国家以及美国和加拿大数百万辆二手车的历史信息。我们可以为数据库中的每辆车创建车辆历史记录并提供给您。这些信息可以帮助您检查销售数据，避免昂贵的后续费用，并协商公平的购买价格。"
   },
 
   "special": {
@@ -72,17 +72,17 @@
     "message": "留言",
     "send": "发送消息",
     "success": "消息发送成功！",
-    "thankYou": "感谢您联系 BEST CARFAX。"
+    "thankYou": "感谢您联系 BEST AUTO VIN CHECK。"
   },
 
   "footer": {
-    "description": "THE Best CARFAX 是一家国际车辆历史记录提供商，致力于让二手车市场更加透明，让全球道路更加安全。",
+    "description": "THE Best AUTO VIN CHECK 是一家国际车辆历史记录提供商，致力于让二手车市场更加透明，让全球道路更加安全。",
     "home": "首页",
     "pricing": "价格",
     "contact": "联系我们",
     "privacy": "隐私政策",
     "security": "采用最高级别的加密标准，确保安全浏览。",
-    "copyright": "Copyright © 2005, BEST CARFAX",
+    "copyright": "Copyright © 2005, BEST AUTO VIN CHECK",
     "tagline": "让车辆历史更加透明。"
   }
 }

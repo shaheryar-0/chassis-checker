@@ -377,7 +377,7 @@ function Checkout() {
                       <p>
                         By submitting this form, you confirm that all the
                         information provided is accurate and complete to the
-                        best of your knowledge. BEST CARFAX is not responsible
+                        best of your knowledge. BEST AUTO VIN CHECK is not responsible
                         for errors or omissions in the information submitted.
                       </p>
                     </div>
@@ -402,10 +402,10 @@ function Checkout() {
                       </h3>
 
                       <p>
-                        BEST CARFAX does not guarantee the availability or
+                        BEST AUTO VIN CHECK does not guarantee the availability or
                         accuracy of vehicle history data, as it depends on
                         third-party sources. Submitting this form indicates
-                        your understanding that BEST CARFAX is not liable for
+                        your understanding that BEST AUTO VIN CHECK is not liable for
                         any discrepancies or incomplete information in the
                         reports provided.
                       </p>

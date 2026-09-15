@@ -38,4 +38,21 @@ body {
 .checkout-input option {
   background: #0f172a;
   color: white;
+} 
+
+
+@keyframes floatCar {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.float-car {
+  animation: floatCar 4s ease-in-out infinite;
 }

@@ -1,105 +1,199 @@
 import { useTranslation } from "react-i18next";
+import {
+  Database,
+  ShieldCheck,
+  Eye,
+  ArrowUpRight,
+} from "lucide-react";
 
 function WhatMakesUsSpecial() {
   const { t } = useTranslation();
 
   const features = [
     {
-      image:
-        "https://bestcarfax.com/wp-content/uploads/2026/08/imgi_15_usp-small-databank-blue-32px.png",
+      number: "01",
+      icon: Database,
+      title: t("special.database"),
+      description: "Access information from a large international vehicle database.",
     },
     {
-      image:
-        "https://bestcarfax.com/wp-content/uploads/2026/08/imgi_16_100-percent-data-protection-32px.png",
+      number: "02",
+      icon: ShieldCheck,
+      title: "100% Data Protection",
+      description: "Your information is handled with strong security standards.",
     },
     {
-      image:
-        "https://bestcarfax.com/wp-content/uploads/2026/08/imgi_17_usp-small-transparency-blue-32px-02__1_.png",
+      number: "03",
+      icon: Eye,
+      title: "Complete Transparency",
+      description: "Get clear vehicle history information before making a decision.",
     },
   ];
 
   return (
-    <section className="bg-[#0B1120] text-white py-16 sm:py-20 lg:py-24">
-      <div className="max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+    <section className="relative bg-[#0B1120] text-white py-20 sm:py-24 lg:py-28 overflow-hidden">
 
-        {/* Heading */}
-        <div className="text-center mb-12 sm:mb-16">
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold">
+      {/* Background Glow */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[400px] bg-blue-600/10 blur-[140px] rounded-full pointer-events-none"></div>
+
+      <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-6 lg:px-8">
+
+        {/* HEADER */}
+        <div className="text-center max-w-3xl mx-auto mb-14 sm:mb-16">
+
+          <span className="inline-flex items-center px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-semibold">
+            Why Choose Us
+          </span>
+
+          <h2 className="mt-6 text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight">
             {t("special.title")}
           </h2>
 
-          <div className="w-[50px] h-[3px] bg-blue-500 rounded-full mx-auto mt-6"></div>
+          <div className="w-16 h-1 bg-blue-500 rounded-full mx-auto mt-6"></div>
+
+          <p className="mt-6 text-slate-400 text-base sm:text-lg leading-relaxed">
+            Everything you need to make a smarter and more confident vehicle purchase.
+          </p>
+
         </div>
 
-        {/* Cards */}
+        {/* CARDS */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
 
-          {features.map((feature, index) => (
-            <div
-              key={index}
-              className="
-                group
-                bg-slate-900/60
-                border
-                border-slate-800
-                rounded-2xl
-                p-8
-                text-center
-                transition-all
-                duration-500
-                hover:-translate-y-2
-                hover:border-blue-500/50
-                hover:shadow-xl
-                hover:shadow-blue-500/10
-              "
-            >
+          {features.map((feature) => {
+            const Icon = feature.icon;
 
-              {/* Icon */}
-              <div className="flex justify-center mb-6">
+            return (
+              <div
+                key={feature.number}
+                className="
+                  group
+                  relative
+                  min-h-[330px]
+                  bg-slate-900/50
+                  backdrop-blur-xl
+                  border
+                  border-slate-800
+                  rounded-3xl
+                  p-7
+                  sm:p-8
+                  overflow-hidden
+                  transition-all
+                  duration-500
+                  hover:-translate-y-3
+                  hover:border-blue-500/50
+                  hover:shadow-2xl
+                  hover:shadow-blue-500/10
+                "
+              >
+
+                {/* Hover Glow */}
                 <div
                   className="
+                    absolute
+                    -top-24
+                    -right-24
+                    w-56
+                    h-56
+                    bg-blue-500/10
+                    blur-3xl
+                    rounded-full
+                    opacity-0
+                    group-hover:opacity-100
+                    transition-opacity
+                    duration-500
+                  "
+                ></div>
+
+                {/* Number */}
+                <div className="absolute top-6 right-7">
+                  <span className="text-5xl font-bold text-slate-800 group-hover:text-blue-500/20 transition-colors duration-500">
+                    {feature.number}
+                  </span>
+                </div>
+
+                {/* Icon */}
+                <div
+                  className="
+                    relative
                     w-16
                     h-16
                     flex
                     items-center
                     justify-center
-                    rounded-full
+                    rounded-2xl
                     bg-slate-800
                     border
                     border-slate-700
+                    text-blue-500
                     transition-all
                     duration-500
-                    group-hover:bg-blue-600/10
-                    group-hover:border-blue-500/50
+                    group-hover:bg-blue-600
+                    group-hover:text-white
+                    group-hover:border-blue-500
                     group-hover:scale-110
+                    group-hover:rotate-3
                   "
                 >
-                  <img
-                    src={feature.image}
-                    alt="Feature"
-                    className="w-8 h-8 object-contain"
-                  />
+                  <Icon size={28} />
                 </div>
+
+                {/* Content */}
+                <div className="relative mt-8">
+
+                  <h3
+                    className="
+                      text-xl
+                      sm:text-2xl
+                      font-bold
+                      text-white
+                      transition-colors
+                      duration-300
+                      group-hover:text-blue-400
+                    "
+                  >
+                    {feature.title}
+                  </h3>
+
+                  <p className="mt-4 text-slate-400 leading-relaxed">
+                    {feature.description}
+                  </p>
+
+                </div>
+
+                {/* Bottom Arrow */}
+                <div className="absolute bottom-7 left-7">
+
+                  <div
+                    className="
+                      flex
+                      items-center
+                      justify-center
+                      w-10
+                      h-10
+                      rounded-full
+                      bg-slate-800
+                      border
+                      border-slate-700
+                      text-slate-500
+                      transition-all
+                      duration-300
+                      group-hover:bg-blue-600
+                      group-hover:text-white
+                      group-hover:border-blue-600
+                    "
+                  >
+                    <ArrowUpRight size={18} />
+                  </div>
+
+                </div>
+
               </div>
-
-              {/* Title */}
-              <h3
-                className="
-                  text-xl
-                  font-bold
-                  text-white
-                  transition-colors
-                  duration-300
-                  group-hover:text-blue-500
-                "
-              >
-                {t("special.database")}
-              </h3>
-
-            </div>
-          ))}
+            );
+          })}
 
         </div>
+
       </div>
     </section>
   );

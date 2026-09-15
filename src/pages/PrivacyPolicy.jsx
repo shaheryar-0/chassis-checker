@@ -15,7 +15,7 @@ function PrivacyPolicy() {
           <div className="w-[50px] h-[3px] bg-blue-500 rounded-full mx-auto mt-6"></div>
 
           <p className="mt-6 text-slate-400 text-sm sm:text-base">
-            BEST CARFAX Europe GmbH
+            BEST AUTO VIN CHECK Europe GmbH
           </p>
         </div>
       </section>
@@ -35,8 +35,8 @@ function PrivacyPolicy() {
 
                 <p>
                   (“Terms and Conditions”) apply to all contracts between BEST
-                  CARFAX Europe GmbH (“BEST CARFAX”) and consumers or
-                  entrepreneurs, concluded on our website www.bestcarfax.com
+                  AUTO VIN CHECK Europe GmbH (“BEST AUTO VIN CHECK”) and consumers or
+                  entrepreneurs, concluded on our website www.bestAUTO VIN CHECK.com
                   and providing access to a VHR (Vehicle History Report).
                 </p>
 
@@ -64,8 +64,8 @@ function PrivacyPolicy() {
 
                 <p className="mt-4">
                   If you do not agree to all of these Terms and Conditions,
-                  you may not create a BEST CARFAX account or/and access
-                  or/and use any site or any part of the BEST CARFAX
+                  you may not create a BEST AUTO VIN CHECK account or/and access
+                  or/and use any site or any part of the BEST AUTO VIN CHECK
                   service(s).
                 </p>
 
@@ -91,16 +91,16 @@ function PrivacyPolicy() {
                 </p>
 
                 <p className="mt-4">
-                  The representations of BEST CARFAX’s services available
+                  The representations of BEST AUTO VIN CHECK’s services available
                   through its website do not constitute a binding offer. With a
                   Customer’s order, the Customer submits a binding offer for
-                  the formation of a contract. Following the order BEST CARFAX
+                  the formation of a contract. Following the order BEST AUTO VIN CHECK
                   will process the Customer’s order and send a confirmation
                   email to acknowledge the receipt of the Customer’s order.
                   This acknowledgement of receipt does not constitute an
                   acceptance of the order. The order is accepted with a
                   separate notification or with the provision of the requested
-                  services. BEST CARFAX sends the order confirmation and the
+                  services. BEST AUTO VIN CHECK sends the order confirmation and the
                   Terms and Conditions to the Customer by email. The Customer
                   can obtain the Terms and Conditions at any time.
                 </p>
@@ -124,7 +124,7 @@ function PrivacyPolicy() {
 
                 <p>
                   <strong>2.1</strong> In case of purchase of an access to a
-                  Vehicle History Report (“VHR”), BEST CARFAX hereby grants a
+                  Vehicle History Report (“VHR”), BEST AUTO VIN CHECK hereby grants a
                   limited, non-transferable and nonexclusive license to access
                   and use the data contained in such report for personal,
                   non-commercial purposes if it concerns a Consumer and for
@@ -138,8 +138,8 @@ function PrivacyPolicy() {
                   financing, providing insurance policy, inspecting and
                   appraising vehicles. Additional commercial purposes such as
                   advertising vehicles through third parties with the use of
-                  BEST CARFAX services requires an explicit consent by BEST
-                  CARFAX.
+                  BEST AUTO VIN CHECK services requires an explicit consent by BEST
+                  AUTO VIN CHECK.
                 </p>
 
                 <p className="mt-4">
@@ -153,26 +153,26 @@ function PrivacyPolicy() {
                 <p className="mt-4">
                   <strong>2.2.2</strong> The access to VHRs will not be
                   available in the case of force majeure and other
-                  circumstances beyond the control of BEST CARFAX, as well as
+                  circumstances beyond the control of BEST AUTO VIN CHECK, as well as
                   malfunction or maintenance of the system thereof.
                 </p>
 
                 <p className="mt-4">
                   <strong>2.3</strong> The Customer acknowledges that BEST
-                  CARFAX is collecting data from public records and other
+                  AUTO VIN CHECK is collecting data from public records and other
                   sources for use in VHRs and that this data may contain errors
-                  and omissions. BEST CARFAX does neither guarantee nor warrant
+                  and omissions. BEST AUTO VIN CHECK does neither guarantee nor warrant
                   the correctness or completeness of VHRs and does not assume
                   any liability.
                 </p>
 
                 <p className="mt-4">
                   The Customer understands that not all information is
-                  available for all jurisdictions and that BEST CARFAX does
+                  available for all jurisdictions and that BEST AUTO VIN CHECK does
                   not have access to some information that may be available to
                   other parties. The Customer also understands there may be a
                   period of time between receipt of certain information by
-                  BEST CARFAX and its inclusion of such information onto a
+                  BEST AUTO VIN CHECK and its inclusion of such information onto a
                   VHR.
                 </p>
 
@@ -185,9 +185,9 @@ function PrivacyPolicy() {
 
                 <p className="mt-4">
                   In case a potential error has been noticed in our Vehicle
-                  History Reports, BEST CARFAX should be notified in writing.
+                  History Reports, BEST AUTO VIN CHECK should be notified in writing.
                   The customer or person making the request acknowledges that
-                  BEST CARFAX may investigate and make corrections to the
+                  BEST AUTO VIN CHECK may investigate and make corrections to the
                   Vehicle History Report only if official documents or a
                   validated statement prove the information to be inaccurate.
                 </p>
@@ -200,22 +200,22 @@ function PrivacyPolicy() {
                 </h2>
 
                 <p>
-                  BEST CARFAX reserves the right to reject any orders or to
+                  BEST AUTO VIN CHECK reserves the right to reject any orders or to
                   exercise an extraordinary right to terminate a contract with
                   a Customer without notice when it believes VHRs will be used
-                  in a manner which will adversely affect BEST CARFAX.
+                  in a manner which will adversely affect BEST AUTO VIN CHECK.
                 </p>
 
                 <p className="mt-4">
                   The Customer may not sell, distribute, disseminate, copy or
                   publish the data or information contained in the VHR, either
                   in whole or in part. The resale and redistribution of the
-                  BEST CARFAX VHR, in whole or in part, is strictly prohibited.
+                  BEST AUTO VIN CHECK VHR, in whole or in part, is strictly prohibited.
                 </p>
 
                 <p className="mt-4">
                   The removal and reuse of all or a substantial part of the
-                  content of the BEST CARFAX VHR, either qualitatively or
+                  content of the BEST AUTO VIN CHECK VHR, either qualitatively or
                   quantitatively, is not permitted.
                 </p>
 
@@ -224,7 +224,7 @@ function PrivacyPolicy() {
                   insignificant parts of the content of the data set, which
                   imply actions that conflict with the normal use of the data
                   set or unreasonably impair the legitimate interests of BEST
-                  CARFAX, are not permitted.
+                  AUTO VIN CHECK, are not permitted.
                 </p>
 
                 <p className="mt-4">
@@ -251,14 +251,14 @@ function PrivacyPolicy() {
                   </li>
                   <li>
                     Replace, modify, redact labels, copyright notices and
-                    ownership information of BEST CARFAX’s VHRs.
+                    ownership information of BEST AUTO VIN CHECK’s VHRs.
                   </li>
-                  <li>Parse any VHR or information obtained from BEST CARFAX.</li>
+                  <li>Parse any VHR or information obtained from BEST AUTO VIN CHECK.</li>
                 </ul>
 
                 <p className="mt-4">
                   The Customer shall make no announcement to any person or
-                  entity regarding BEST CARFAX or any VHR, whether written or
+                  entity regarding BEST AUTO VIN CHECK or any VHR, whether written or
                   oral, that is inconsistent with the provisions of this
                   Agreement and the information contained in the VHR.
                 </p>
@@ -266,7 +266,7 @@ function PrivacyPolicy() {
                 <p className="mt-4">
                   The Customer acknowledges that no ownership rights will be
                   acquired by downloading or printing the copyright material,
-                  or by using BEST CARFAX provided infrastructure.
+                  or by using BEST AUTO VIN CHECK provided infrastructure.
                 </p>
               </section>
 
@@ -285,7 +285,7 @@ function PrivacyPolicy() {
                   Access to a VHR will also not be charged if a valid VIN or a
                   valid License Plate is provided, but no data is found.
                   Subject to Sec. 6 below, to return any VHRs once an order
-                  has been accepted by BEST CARFAX is not possible.
+                  has been accepted by BEST AUTO VIN CHECK is not possible.
                 </p>
               </section>
 
@@ -313,8 +313,8 @@ function PrivacyPolicy() {
 
                 <p>
                   The following information applies to the purchase of access
-                  to a Single BEST CARFAX and to the purchase of access to BEST
-                  CARFAX Package purchased by a consumer.
+                  to a Single BEST AUTO VIN CHECK and to the purchase of access to BEST
+                  AUTO VIN CHECK Package purchased by a consumer.
                 </p>
 
                 <div className="mt-6 p-5 sm:p-6 rounded-xl bg-slate-950 border border-slate-800">
@@ -337,13 +337,13 @@ function PrivacyPolicy() {
                   </p>
 
                   <p className="mt-3 text-white">
-                    BEST CARFAX Europe GmbH
+                    BEST AUTO VIN CHECK Europe GmbH
                     <br />
                     Barthstraße 2-10
                     <br />
                     80339 München, Germany
                     <br />
-                    Email: info@bestcarfax.com
+                    Email: info@bestAUTO VIN CHECK.com
                   </p>
 
                   <p className="mt-4">
@@ -392,11 +392,11 @@ function PrivacyPolicy() {
                 <p>
                   Pursuant to Sec. 356(4) of the German Civil Code, the above
                   right of withdrawal expires in those cases in which BEST
-                  CARFAX has completely provided the service and began with the
+                  AUTO VIN CHECK has completely provided the service and began with the
                   performance of the service only after the Consumer has given
                   its express consent thereto and concurrently acknowledged
                   that he/she would lose its right to withdraw from the
-                  contract once BEST CARFAX has fully performed the contract.
+                  contract once BEST AUTO VIN CHECK has fully performed the contract.
                 </p>
 
                 <h3 className="subsection-title">
@@ -416,13 +416,13 @@ function PrivacyPolicy() {
                   <p className="mt-5">
                     To:
                     <br />
-                    BEST CARFAX Europe GmbH
+                    BEST AUTO VIN CHECK Europe GmbH
                     <br />
                     Barthstraße 2-10
                     <br />
                     80339 München, Germany
                     <br />
-                    Email: info@bestcarfax.com
+                    Email: info@bestAUTO VIN CHECK.com
                   </p>
 
                   <p className="mt-5">
@@ -448,7 +448,7 @@ function PrivacyPolicy() {
               {/* 7 */}
               <section>
                 <h2 className="section-title">
-                  7. BEST CARFAX 30 day money back guarantee
+                  7. BEST AUTO VIN CHECK 30 day money back guarantee
                 </h2>
 
                 <p>
@@ -459,20 +459,20 @@ function PrivacyPolicy() {
 
                 <p className="mt-4">
                   <strong>7.1</strong> In addition to the statutory 14-day
-                  right of withdrawal, BEST CARFAX offers Consumers a
+                  right of withdrawal, BEST AUTO VIN CHECK offers Consumers a
                   subsequent 16-day money-back guarantee for the purchase of a
                   consumer offer.
                 </p>
 
                 <p className="mt-4">
                   <strong>7.2</strong> In case of dissatisfaction and
-                  corresponding complaint to info@bestcarfax.com, the purchase
-                  price for the 1 BEST CARFAX offer will be 100 % refunded.
+                  corresponding complaint to info@bestAUTO VIN CHECK.com, the purchase
+                  price for the 1 BEST AUTO VIN CHECK offer will be 100 % refunded.
                   In case of dissatisfaction and corresponding complaint, the
-                  purchase price for the 3 BEST CARFAX Package will be 100 %
+                  purchase price for the 3 BEST AUTO VIN CHECK Package will be 100 %
                   refunded, unless more than one credit has already been
                   redeemed. In case of dissatisfaction and corresponding
-                  complaint, the purchase price for the 5 BEST CARFAX Package
+                  complaint, the purchase price for the 5 BEST AUTO VIN CHECK Package
                   will be 100 % refunded, unless more than two credits has
                   already been redeemed.
                 </p>
@@ -504,16 +504,16 @@ function PrivacyPolicy() {
                 <p className="mt-4">
                   <strong>8.2 For Business Customers:</strong> The Business
                   Customer ensures that only authorized representatives receive
-                  the user name and password for access to the BEST CARFAX used
+                  the user name and password for access to the BEST AUTO VIN CHECK used
                   car histories.
                 </p>
 
                 <p className="mt-4">
                   <strong>8.3</strong> In the event that third parties are
                   culpably and illegally enabled to use a customer or business
-                  account to access the BEST CARFAX used car histories, a
+                  account to access the BEST AUTO VIN CHECK used car histories, a
                   lump-sum contractual penalty of EUR 5,000 shall be payable to
-                  BEST CARFAX. In addition, the account holder who culpably
+                  BEST AUTO VIN CHECK. In addition, the account holder who culpably
                   enabled the unauthorized use shall pay an additional EUR 25
                   per used car history accessed by third parties.
                 </p>
@@ -522,13 +522,13 @@ function PrivacyPolicy() {
                   <strong>8.4</strong> In the event that a customer or business
                   account is used to resell used car histories accessible via
                   the account or information contained therein, EUR 25 shall be
-                  payable to BEST CARFAX for each resold report or each resold
+                  payable to BEST AUTO VIN CHECK for each resold report or each resold
                   piece of information. In addition, a general contractual
                   penalty of EUR 5,000 shall be due.
                 </p>
 
                 <p className="mt-4">
-                  <strong>8.5</strong> BEST CARFAX reserves the right to
+                  <strong>8.5</strong> BEST AUTO VIN CHECK reserves the right to
                   temporarily block customer or business account in the event
                   of suspicion.
                 </p>
@@ -539,18 +539,18 @@ function PrivacyPolicy() {
                 <h2 className="section-title">9. Limitation of liability</h2>
 
                 <p>
-                  BEST CARFAX shall be liable as follows:
+                  BEST AUTO VIN CHECK shall be liable as follows:
                 </p>
 
                 <p className="mt-4">
-                  <strong>9.1</strong> BEST CARFAX shall be fully liable for
+                  <strong>9.1</strong> BEST AUTO VIN CHECK shall be fully liable for
                   intent and gross negligence as well as for damages caused by
                   injury to life, body or health.
                 </p>
 
                 <p className="mt-4">
                   <strong>9.2</strong> In an event of slight negligence, BEST
-                  CARFAX shall be liable only for breaches of a material
+                  AUTO VIN CHECK shall be liable only for breaches of a material
                   contractual obligation (cardinal duty). A “cardinal duty” in
                   the meaning of this provision is an obligation whose
                   fulfilment makes the implementation of this contract possible
@@ -567,12 +567,12 @@ function PrivacyPolicy() {
                 <p className="mt-4">
                   <strong>9.4</strong> The limitation of liability shall apply
                   mutatis mutandis to the benefit of the employees, agents and
-                  vicarious agents of BEST CARFAX.
+                  vicarious agents of BEST AUTO VIN CHECK.
                 </p>
 
                 <p className="mt-4">
                   <strong>9.5</strong> Any potential liability on the part of
-                  BEST CARFAX for claims based on the German Product Liability
+                  BEST AUTO VIN CHECK for claims based on the German Product Liability
                   Act shall not be affected.
                 </p>
               </section>
@@ -598,7 +598,7 @@ function PrivacyPolicy() {
                   copyrights, trademarks, service marks, database rights, trade
                   secrets, know-how and all derivative works thereof
                   (collectively, “intellectual property”), are and will remain
-                  the property of BEST CARFAX and are protected by
+                  the property of BEST AUTO VIN CHECK and are protected by
                   international copyright, trademark and other applicable
                   intellectual property laws.
                 </p>
@@ -612,7 +612,7 @@ function PrivacyPolicy() {
 
                 <p className="mt-4">
                   You shall not take any action that jeopardizes, limits or
-                  interferes with BEST CARFAX or its affiliates’ ownership of
+                  interferes with BEST AUTO VIN CHECK or its affiliates’ ownership of
                   and/or right to use the intellectual property.
                 </p>
               </section>
@@ -622,7 +622,7 @@ function PrivacyPolicy() {
                 <h2 className="section-title">11. Indemnification</h2>
 
                 <p>
-                  The Customer will indemnify and hold BEST CARFAX and its
+                  The Customer will indemnify and hold BEST AUTO VIN CHECK and its
                   agents harmless from any claims, suits or damages, direct or
                   indirect, arising out of the Customer’s use of VHRs not being
                   compliant with these Terms and Conditions.
@@ -646,7 +646,7 @@ function PrivacyPolicy() {
 
                 <p className="mt-4">
                   <strong>12.2</strong> Any dispute, controversy or claim
-                  between BEST CARFAX and a Business Customer arising in
+                  between BEST AUTO VIN CHECK and a Business Customer arising in
                   connection with these Terms and Conditions shall be settled
                   by the courts in Munich, Germany, applying German law.
                 </p>
@@ -661,7 +661,7 @@ function PrivacyPolicy() {
                 <h2 className="section-title">13. Modification</h2>
 
                 <p>
-                  <strong>13.1</strong> BEST CARFAX reserves the right to
+                  <strong>13.1</strong> BEST AUTO VIN CHECK reserves the right to
                   amend or to supplement these Terms and Conditions after
                   conclusion of the agreement, if this seems necessary and you
                   will not be unreasonably disadvantaged and if this is not
@@ -684,7 +684,7 @@ function PrivacyPolicy() {
                 </p>
 
                 <p className="mt-4">
-                  <strong>13.3</strong> BEST CARFAX will notify Customers via
+                  <strong>13.3</strong> BEST AUTO VIN CHECK will notify Customers via
                   email or in an otherwise suitable form, e.g. in form of a
                   notice during the login process. Such notification will take
                   place at least six weeks prior to the effectiveness of the
@@ -694,7 +694,7 @@ function PrivacyPolicy() {
                 <p className="mt-4">
                   If a Customer does not object to such changes within the six
                   weeks’ deadline, the changes shall come into force. BEST
-                  CARFAX will notify the Customer of the effect of the
+                  AUTO VIN CHECK will notify the Customer of the effect of the
                   Customer’s silence in the aforementioned notification.
                 </p>
               </section>
@@ -723,7 +723,7 @@ function PrivacyPolicy() {
                 </p>
 
                 <p className="mt-4">
-                  <strong>14.3</strong> BEST CARFAX is not willing to take part
+                  <strong>14.3</strong> BEST AUTO VIN CHECK is not willing to take part
                   in dispute resolution procedures before a consumer
                   conciliation body.
                 </p>

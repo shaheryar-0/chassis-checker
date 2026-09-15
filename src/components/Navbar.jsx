@@ -18,12 +18,14 @@ function Navbar() {
   const { t, i18n } = useTranslation();
 
   const [showSearch, setShowSearch] = useState(false);
+
   const [language, setLanguage] = useState(
     languages.find((lang) => lang.code === i18n.language) || languages[0]
   );
+
   const [menuOpen, setMenuOpen] = useState(false);
 
-  // Keep HTML direction and language updated
+  // Keep HTML language and direction updated
   useEffect(() => {
     const currentLanguage =
       languages.find((lang) => lang.code === i18n.language) || languages[0];
@@ -31,7 +33,8 @@ function Navbar() {
     setLanguage(currentLanguage);
 
     document.documentElement.lang = i18n.language;
-    document.documentElement.dir = i18n.language === "ar" ? "rtl" : "ltr";
+    document.documentElement.dir =
+      i18n.language === "ar" ? "rtl" : "ltr";
   }, [i18n.language]);
 
   // Change website language
@@ -57,30 +60,40 @@ function Navbar() {
     <nav className="w-full bg-[#0B1120] border-b border-slate-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* Main Navbar */}
+        {/* ================= MAIN NAVBAR ================= */}
         <div className="h-20 flex items-center justify-between">
 
-          {/* Logo */}
+          {/* ================= LOGO ================= */}
           <Link
             to="/"
             onClick={() => setMenuOpen(false)}
-            className="flex items-center cursor-pointer"
+            className="flex items-center cursor-pointer group"
           >
             <img
               src={logo}
-              alt="Logo"
-              className="h-14 sm:h-16 w-auto object-contain"
+              alt="AUTO VIN CHECK"
+              className="
+                h-14
+                rounded-full 
+                sm:h-16
+                w-auto
+                object-contain
+                transition-all
+                duration-300
+                group-hover:scale-105
+              "
             />
           </Link>
 
-          {/* Desktop Navigation */}
+          {/* ================= DESKTOP NAVIGATION ================= */}
           <div className="hidden lg:flex items-center gap-2">
 
             {/* Home */}
             <Link
               to="/"
               className="
-                px-4 py-2
+                px-4
+                py-2
                 rounded-lg
                 bg-blue-600
                 text-white
@@ -88,6 +101,8 @@ function Navbar() {
                 transition-all
                 duration-300
                 hover:bg-blue-700
+                hover:shadow-lg
+                hover:shadow-blue-500/20
               "
             >
               {t("navbar.home")}
@@ -98,7 +113,8 @@ function Navbar() {
               to="/pricing"
               className="
                 relative
-                px-4 py-2
+                px-4
+                py-2
                 rounded-lg
                 text-slate-200
                 transition-all
@@ -124,7 +140,8 @@ function Navbar() {
               to="/privacy-policy"
               className="
                 relative
-                px-4 py-2
+                px-4
+                py-2
                 rounded-lg
                 text-slate-200
                 transition-all
@@ -150,7 +167,8 @@ function Navbar() {
               to="/contact"
               className="
                 relative
-                px-4 py-2
+                px-4
+                py-2
                 rounded-lg
                 text-slate-200
                 transition-all
@@ -171,7 +189,7 @@ function Navbar() {
               {t("navbar.contact")}
             </Link>
 
-            {/* Search + Language */}
+            {/* ================= SEARCH + LANGUAGE ================= */}
             <div className="flex items-center ml-3">
 
               {/* Search Button */}
@@ -182,9 +200,11 @@ function Navbar() {
                   rounded-full
                   text-white
                   hover:bg-slate-800
-                  transition
+                  hover:text-blue-400
+                  transition-all
                   duration-300
                 "
+                aria-label="Search"
               >
                 <Search size={21} />
               </button>
@@ -209,9 +229,11 @@ function Navbar() {
                     text-white
                     placeholder:text-slate-500
                     rounded-lg
-                    px-3 py-2
+                    px-3
+                    py-2
                     outline-none
                     focus:border-blue-500
+                    transition-colors
                   "
                 />
               </div>
@@ -231,11 +253,13 @@ function Navbar() {
                   border
                   border-slate-700
                   rounded-lg
-                  px-3 py-2
+                  px-3
+                  py-2
                   cursor-pointer
                   outline-none
                   focus:border-blue-500
                   text-sm
+                  transition-colors
                 "
               >
                 {languages.map((lang) => (
@@ -244,10 +268,11 @@ function Navbar() {
                   </option>
                 ))}
               </select>
+
             </div>
           </div>
 
-          {/* Mobile Menu Button */}
+          {/* ================= MOBILE MENU BUTTON ================= */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="
@@ -256,14 +281,18 @@ function Navbar() {
               rounded-lg
               text-white
               hover:bg-slate-800
-              transition
+              hover:text-blue-400
+              transition-all
+              duration-300
             "
+            aria-label="Toggle menu"
           >
             {menuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
+
         </div>
 
-        {/* Mobile Menu */}
+        {/* ================= MOBILE MENU ================= */}
         {menuOpen && (
           <div className="lg:hidden border-t border-slate-800 py-4">
 
@@ -276,11 +305,14 @@ function Navbar() {
                 className="
                   w-full
                   text-left
-                  px-4 py-3
+                  px-4
+                  py-3
                   rounded-lg
                   bg-blue-600
                   text-white
                   font-medium
+                  hover:bg-blue-700
+                  transition
                 "
               >
                 {t("navbar.home")}
@@ -293,7 +325,8 @@ function Navbar() {
                 className="
                   w-full
                   text-left
-                  px-4 py-3
+                  px-4
+                  py-3
                   rounded-lg
                   text-slate-200
                   hover:bg-slate-800
@@ -312,7 +345,8 @@ function Navbar() {
                 className="
                   w-full
                   text-left
-                  px-4 py-3
+                  px-4
+                  py-3
                   rounded-lg
                   text-slate-200
                   hover:bg-slate-800
@@ -331,7 +365,8 @@ function Navbar() {
                 className="
                   w-full
                   text-left
-                  px-4 py-3
+                  px-4
+                  py-3
                   rounded-lg
                   text-slate-200
                   hover:bg-slate-800
@@ -345,6 +380,7 @@ function Navbar() {
 
               {/* Mobile Search */}
               <div className="flex items-center gap-3 mt-3">
+
                 <Search
                   size={20}
                   className="text-slate-400"
@@ -361,11 +397,13 @@ function Navbar() {
                     text-white
                     placeholder:text-slate-500
                     rounded-lg
-                    px-3 py-3
+                    px-3
+                    py-3
                     outline-none
                     focus:border-blue-500
                   "
                 />
+
               </div>
 
               {/* Mobile Language */}
@@ -380,7 +418,8 @@ function Navbar() {
                   border
                   border-slate-700
                   rounded-lg
-                  px-3 py-3
+                  px-3
+                  py-3
                   cursor-pointer
                   outline-none
                   focus:border-blue-500
@@ -396,6 +435,7 @@ function Navbar() {
             </div>
           </div>
         )}
+
       </div>
     </nav>
   );

@@ -8,7 +8,7 @@
   },
 
   "hero": {
-    "title": "Wees slim en controleer vooraf. De BEST CARFAX — Uw voertuiggeschiedenis.",
+    "title": "Wees slim en controleer vooraf. De BEST AUTO VIN CHECK — Uw voertuiggeschiedenis.",
     "vinPlaceholder": "Voer VIN in",
     "search": "Zoeken",
     "vinHelp": "Waar kan ik het voertuigidentificatienummer (VIN) vinden?"
@@ -16,9 +16,9 @@
 
   "report": {
     "title": "Zeg dit voordat u een gebruikte auto koopt:",
-    "highlight": "Laat me de BEST CARFAX zien",
+    "highlight": "Laat me de BEST AUTO VIN CHECK zien",
     "description": "Bekijk dit voorbeeld van de informatie die wij kunnen aanbieden in onze voertuiggeschiedenisrapporten.",
-    "button": "Laat me de BEST CARFAX zien"
+    "button": "Laat me de BEST AUTO VIN CHECK zien"
   },
 
   "vehicleChecks": {
@@ -35,7 +35,7 @@
 
   "howWeHelp": {
     "title": "Hoe wij u helpen de beste auto te vinden",
-    "description": "Bij THE BEST CARFAX verzamelen we gegevens over de geschiedenis van miljoenen gebruikte auto's uit 20 Europese landen, evenals de VS en Canada. Vervolgens kunnen we voor elke auto in onze database een voertuiggeschiedenis maken en deze aan u beschikbaar stellen. De informatie helpt u verkoopgegevens te controleren, dure vervolgkosten te voorkomen en een eerlijke aankoopprijs te onderhandelen."
+    "description": "Bij THE BEST AUTO VIN CHECK verzamelen we gegevens over de geschiedenis van miljoenen gebruikte auto's uit 20 Europese landen, evenals de VS en Canada. Vervolgens kunnen we voor elke auto in onze database een voertuiggeschiedenis maken en deze aan u beschikbaar stellen. De informatie helpt u verkoopgegevens te controleren, dure vervolgkosten te voorkomen en een eerlijke aankoopprijs te onderhandelen."
   },
 
   "special": {
@@ -72,17 +72,17 @@
     "message": "Bericht",
     "send": "Bericht verzenden",
     "success": "Bericht succesvol verzonden!",
-    "thankYou": "Bedankt dat u contact heeft opgenomen met BEST CARFAX."
+    "thankYou": "Bedankt dat u contact heeft opgenomen met BEST AUTO VIN CHECK."
   },
 
   "footer": {
-    "description": "THE Best CARFAX is een internationale aanbieder van voertuiggeschiedenissen met als doel de markt voor gebruikte auto's transparanter en onze wegen wereldwijd veiliger te maken.",
+    "description": "THE Best AUTO VIN CHECK is een internationale aanbieder van voertuiggeschiedenissen met als doel de markt voor gebruikte auto's transparanter en onze wegen wereldwijd veiliger te maken.",
     "home": "Home",
     "pricing": "Prijzen",
     "contact": "Contact",
     "privacy": "Privacybeleid",
     "security": "Veilig surfen dankzij de hoogste versleutelingsstandaarden.",
-    "copyright": "Copyright © 2005, BEST CARFAX",
+    "copyright": "Copyright © 2005, BEST AUTO VIN CHECK",
     "tagline": "Voertuiggeschiedenis transparant gemaakt."
   }
 }
