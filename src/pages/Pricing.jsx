@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Check, ChevronDown } from "lucide-react";
 
+
 const packages = [
   {
     name: "Silver",
@@ -9,17 +10,15 @@ const packages = [
     duration: "12 to 24 Hrs",
     features: [
       "Vehicle Overview",
-      "Market Value",
-      "Vehicle Specifications",
-      "Sales Listing",
-      "Accident Record",
-      "Theft Record",
+      "VIN & Vehicle Specifications",
+      "Estimated Market Value",
+      "Sales & Listing History",
+      "Reported Accident History",
+      "Theft Records",
       "Open Recalls",
-      "Impounds",
-      "Active Warranties",
-      "Expired Warranties",
-      "HQ Vehicle Images",
+      "Warranty Information",
       "Installed Options and Packages",
+      "Available Vehicle Images",
     ],
   },
   {
@@ -28,15 +27,16 @@ const packages = [
     duration: "1 to 2 Hrs",
     popular: true,
     features: [
-      "Accident Record",
-      "Theft Record",
-      "Open Recalls",
-      "Exports",
-      "Active Warranties",
-      "Expired Warranties",
-      "HQ Bike Images",
-      "Installed Options and Packages",
+      "Everything in Silver",
+      "Mileage & Odometer History",
+      "Ownership History",
       "Registration History",
+      "Import & Export Records",
+      "Title History",
+      "Auction & Sales Records",
+      "Reported Damage History",
+      "Impound Records",
+      "Available Maintenance Records",
     ],
   },
   {
@@ -44,12 +44,15 @@ const packages = [
     price: "$89.99",
     duration: "15 to 30 Minutes",
     features: [
-      "Accident Record",
-      "Hurricanes",
-      "Fire",
-      "Theft",
-      "Run Aground",
-      "Submerged",
+      "Everything in Gold",
+      "Flood & Water Damage Records",
+      "Fire Damage Records",
+      "Hurricane & Storm Damage Records",
+      "Salvage & Total Loss Records",
+      "Structural Damage Records",
+      "Available Lien & Finance Records",
+      "Taxi, Rental & Commercial Usage Records",
+      "Comprehensive Vehicle History Summary",
     ],
   },
 ];

@@ -12,6 +12,7 @@ import Pricing from "./pages/Pricing";
 import Checkout from "./pages/Checkout";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import Contact from "./pages/Contact";
+import LiveChat from "./components/LiveChat";
 
 function Home() {
   return (
@@ -39,6 +40,7 @@ function App() {
   <Route path="/contact" element={<Contact />} />
 </Routes>
         <Footer />
+         <LiveChat />
       </div>
     </BrowserRouter>
   );

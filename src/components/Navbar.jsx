@@ -1,3 +1,4 @@
+
 import { useEffect, useState } from "react";
 import { Search, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
@@ -57,13 +58,13 @@ function Navbar() {
   };
 
   return (
-    <nav className="w-full bg-[#0B1120] border-b border-slate-800 shadow-lg">
+    <nav className="sticky top-0 z-[1000] w-full bg-[#0B1120]/95 backdrop-blur-xl border-b border-slate-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
-        {/* ================= MAIN NAVBAR ================= */}
+        {/* MAIN NAVBAR */}
         <div className="h-20 flex items-center justify-between">
 
-          {/* ================= LOGO ================= */}
+          {/* LOGO */}
           <Link
             to="/"
             onClick={() => setMenuOpen(false)}
@@ -74,7 +75,7 @@ function Navbar() {
               alt="AUTO VIN CHECK"
               className="
                 h-14
-                rounded-full 
+                rounded-full
                 sm:h-16
                 w-auto
                 object-contain
@@ -85,24 +86,16 @@ function Navbar() {
             />
           </Link>
 
-          {/* ================= DESKTOP NAVIGATION ================= */}
+          {/* DESKTOP NAVIGATION */}
           <div className="hidden lg:flex items-center gap-2">
 
             {/* Home */}
             <Link
               to="/"
               className="
-                px-4
-                py-2
-                rounded-lg
-                bg-blue-600
-                text-white
-                font-medium
-                transition-all
-                duration-300
-                hover:bg-blue-700
-                hover:shadow-lg
-                hover:shadow-blue-500/20
+                px-4 py-2 rounded-lg bg-blue-600 text-white
+                font-medium transition-all duration-300
+                hover:bg-blue-700 hover:shadow-lg hover:shadow-blue-500/20
               "
             >
               {t("navbar.home")}
@@ -112,24 +105,11 @@ function Navbar() {
             <Link
               to="/pricing"
               className="
-                relative
-                px-4
-                py-2
-                rounded-lg
-                text-slate-200
-                transition-all
-                duration-300
-                hover:bg-slate-800
-                hover:text-white
-                after:absolute
-                after:left-0
-                after:bottom-0
-                after:h-[2px]
-                after:w-0
-                after:bg-blue-500
-                after:transition-all
-                after:duration-300
-                hover:after:w-full
+                relative px-4 py-2 rounded-lg text-slate-200
+                transition-all duration-300 hover:bg-slate-800 hover:text-white
+                after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-blue-500 after:transition-all
+                after:duration-300 hover:after:w-full
               "
             >
               {t("navbar.pricing")}
@@ -139,24 +119,11 @@ function Navbar() {
             <Link
               to="/privacy-policy"
               className="
-                relative
-                px-4
-                py-2
-                rounded-lg
-                text-slate-200
-                transition-all
-                duration-300
-                hover:bg-slate-800
-                hover:text-white
-                after:absolute
-                after:left-0
-                after:bottom-0
-                after:h-[2px]
-                after:w-0
-                after:bg-blue-500
-                after:transition-all
-                after:duration-300
-                hover:after:w-full
+                relative px-4 py-2 rounded-lg text-slate-200
+                transition-all duration-300 hover:bg-slate-800 hover:text-white
+                after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-blue-500 after:transition-all
+                after:duration-300 hover:after:w-full
               "
             >
               {t("navbar.privacy")}
@@ -166,43 +133,25 @@ function Navbar() {
             <Link
               to="/contact"
               className="
-                relative
-                px-4
-                py-2
-                rounded-lg
-                text-slate-200
-                transition-all
-                duration-300
-                hover:bg-slate-800
-                hover:text-white
-                after:absolute
-                after:left-0
-                after:bottom-0
-                after:h-[2px]
-                after:w-0
-                after:bg-blue-500
-                after:transition-all
-                after:duration-300
-                hover:after:w-full
+                relative px-4 py-2 rounded-lg text-slate-200
+                transition-all duration-300 hover:bg-slate-800 hover:text-white
+                after:absolute after:left-0 after:bottom-0 after:h-[2px]
+                after:w-0 after:bg-blue-500 after:transition-all
+                after:duration-300 hover:after:w-full
               "
             >
               {t("navbar.contact")}
             </Link>
 
-            {/* ================= SEARCH + LANGUAGE ================= */}
+            {/* SEARCH + LANGUAGE */}
             <div className="flex items-center ml-3">
 
               {/* Search Button */}
               <button
                 onClick={() => setShowSearch(!showSearch)}
                 className="
-                  p-2
-                  rounded-full
-                  text-white
-                  hover:bg-slate-800
-                  hover:text-blue-400
-                  transition-all
-                  duration-300
+                  p-2 rounded-full text-white hover:bg-slate-800
+                  hover:text-blue-400 transition-all duration-300
                 "
                 aria-label="Search"
               >
@@ -212,9 +161,7 @@ function Navbar() {
               {/* Search Input */}
               <div
                 className={`
-                  overflow-hidden
-                  transition-all
-                  duration-500
+                  overflow-hidden transition-all duration-500
                   ${showSearch ? "w-52 ml-3" : "w-0"}
                 `}
               >
@@ -222,17 +169,9 @@ function Navbar() {
                   type="text"
                   placeholder={t("navbar.search")}
                   className="
-                    w-full
-                    bg-slate-900
-                    border
-                    border-slate-700
-                    text-white
-                    placeholder:text-slate-500
-                    rounded-lg
-                    px-3
-                    py-2
-                    outline-none
-                    focus:border-blue-500
+                    w-full bg-slate-900 border border-slate-700
+                    text-white placeholder:text-slate-500 rounded-lg
+                    px-3 py-2 outline-none focus:border-blue-500
                     transition-colors
                   "
                 />
@@ -248,18 +187,9 @@ function Navbar() {
                 value={language.code}
                 onChange={handleLanguageChange}
                 className="
-                  bg-slate-900
-                  text-white
-                  border
-                  border-slate-700
-                  rounded-lg
-                  px-3
-                  py-2
-                  cursor-pointer
-                  outline-none
-                  focus:border-blue-500
-                  text-sm
-                  transition-colors
+                  bg-slate-900 text-white border border-slate-700
+                  rounded-lg px-3 py-2 cursor-pointer outline-none
+                  focus:border-blue-500 text-sm transition-colors
                 "
               >
                 {languages.map((lang) => (
@@ -272,18 +202,12 @@ function Navbar() {
             </div>
           </div>
 
-          {/* ================= MOBILE MENU BUTTON ================= */}
+          {/* MOBILE MENU BUTTON */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="
-              lg:hidden
-              p-2
-              rounded-lg
-              text-white
-              hover:bg-slate-800
-              hover:text-blue-400
-              transition-all
-              duration-300
+              lg:hidden p-2 rounded-lg text-white hover:bg-slate-800
+              hover:text-blue-400 transition-all duration-300
             "
             aria-label="Toggle menu"
           >
@@ -292,7 +216,7 @@ function Navbar() {
 
         </div>
 
-        {/* ================= MOBILE MENU ================= */}
+        {/* MOBILE MENU */}
         {menuOpen && (
           <div className="lg:hidden border-t border-slate-800 py-4">
 
@@ -303,16 +227,8 @@ function Navbar() {
                 to="/"
                 onClick={() => setMenuOpen(false)}
                 className="
-                  w-full
-                  text-left
-                  px-4
-                  py-3
-                  rounded-lg
-                  bg-blue-600
-                  text-white
-                  font-medium
-                  hover:bg-blue-700
-                  transition
+                  w-full text-left px-4 py-3 rounded-lg bg-blue-600
+                  text-white font-medium hover:bg-blue-700 transition
                 "
               >
                 {t("navbar.home")}
@@ -323,16 +239,8 @@ function Navbar() {
                 to="/pricing"
                 onClick={() => setMenuOpen(false)}
                 className="
-                  w-full
-                  text-left
-                  px-4
-                  py-3
-                  rounded-lg
-                  text-slate-200
-                  hover:bg-slate-800
-                  hover:text-white
-                  transition
-                  duration-300
+                  w-full text-left px-4 py-3 rounded-lg text-slate-200
+                  hover:bg-slate-800 hover:text-white transition duration-300
                 "
               >
                 {t("navbar.pricing")}
@@ -343,16 +251,8 @@ function Navbar() {
                 to="/privacy-policy"
                 onClick={() => setMenuOpen(false)}
                 className="
-                  w-full
-                  text-left
-                  px-4
-                  py-3
-                  rounded-lg
-                  text-slate-200
-                  hover:bg-slate-800
-                  hover:text-white
-                  transition
-                  duration-300
+                  w-full text-left px-4 py-3 rounded-lg text-slate-200
+                  hover:bg-slate-800 hover:text-white transition duration-300
                 "
               >
                 {t("navbar.privacy")}
@@ -363,16 +263,8 @@ function Navbar() {
                 to="/contact"
                 onClick={() => setMenuOpen(false)}
                 className="
-                  w-full
-                  text-left
-                  px-4
-                  py-3
-                  rounded-lg
-                  text-slate-200
-                  hover:bg-slate-800
-                  hover:text-white
-                  transition
-                  duration-300
+                  w-full text-left px-4 py-3 rounded-lg text-slate-200
+                  hover:bg-slate-800 hover:text-white transition duration-300
                 "
               >
                 {t("navbar.contact")}
@@ -380,30 +272,17 @@ function Navbar() {
 
               {/* Mobile Search */}
               <div className="flex items-center gap-3 mt-3">
-
-                <Search
-                  size={20}
-                  className="text-slate-400"
-                />
+                <Search size={20} className="text-slate-400" />
 
                 <input
                   type="text"
                   placeholder={t("navbar.search")}
                   className="
-                    flex-1
-                    bg-slate-900
-                    border
-                    border-slate-700
-                    text-white
-                    placeholder:text-slate-500
-                    rounded-lg
-                    px-3
-                    py-3
-                    outline-none
-                    focus:border-blue-500
+                    flex-1 bg-slate-900 border border-slate-700
+                    text-white placeholder:text-slate-500 rounded-lg
+                    px-3 py-3 outline-none focus:border-blue-500
                   "
                 />
-
               </div>
 
               {/* Mobile Language */}
@@ -411,18 +290,9 @@ function Navbar() {
                 value={language.code}
                 onChange={handleLanguageChange}
                 className="
-                  w-full
-                  mt-2
-                  bg-slate-900
-                  text-white
-                  border
-                  border-slate-700
-                  rounded-lg
-                  px-3
-                  py-3
-                  cursor-pointer
-                  outline-none
-                  focus:border-blue-500
+                  w-full mt-2 bg-slate-900 text-white border
+                  border-slate-700 rounded-lg px-3 py-3
+                  cursor-pointer outline-none focus:border-blue-500
                 "
               >
                 {languages.map((lang) => (
